@@ -1,5 +1,7 @@
 # MultiplePagePrintingSwift
-Multiple Page Printing, macOS Swift
+Multiple Page Printing, macOS Swift - by David Phillip Oster
+
+Here's a screenshot of the finished app, showing a scrollview of simulated mailing labels, and on top of it, the Print Dialog with its display of a small preview of the first page.
 
 ![](images/Example.jpg)
 
