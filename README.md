@@ -1,4 +1,7 @@
 # MultiplePagePrintingSwift
+This is a complete, working, source code of a Swift app that prints items like business cards or mailing labels and never splits them across page breaks. It also the **Scale:** text box on the Page Setup dialog, shrinking or zooming the labels in the print.
+It only depends on the Cocoa framework - no external dependencies.
+
 Multiple Page Printing, macOS Swift - by David Phillip Oster
 
 Here's a screenshot of the finished app, showing a scrollview of simulated mailing labels, and on top of it, the Print Dialog with its display of a small preview of the first page.
@@ -8,7 +11,7 @@ Here's a screenshot of the finished app, showing a scrollview of simulated maili
 ## What this is
 
 Ignore the scrollview for a moment and think of the content view as one giant rectangle. If you knew the page number,
-can you generate a sub-rectangle that's just the content of that page? If you knew the content rectangle of a printable page, could you return the count of pages that would be needed to show all of your content view? NSView has an overridable method for each question, and this repository is a runnable example of an app that prints a thousand business cards or mailing labels, multiple labels per page, and never breaking a label across a page. This repository also handles the **Scale:** text box on the Page Setup dialog, shrinking or zooming the labels in the print.
+can you generate a sub-rectangle that's just the content of that page? If you knew the content rectangle of a printable page, could you return the count of pages that would be needed to show all of your content view? NSView has an overridable method for each question, and this repository is a runnable example of an app that prints a thousand business cards or mailing labels, multiple labels per page, and never breaking a label across a page.
 
 All of the source code is in Swift. See [MultiplePagePrintingObjC](https://github.com/DavidPhillipOster/MultiplePagePrintingObjC) for the same example, worked in Objective-C.
 
